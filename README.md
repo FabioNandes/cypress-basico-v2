@@ -1,29 +1,32 @@
-# Testes automatizados com Cypress - Básico
+# **Simple** E2E test suite with Cypress
+[![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
 
-👋 Seja bem-vindo(a)!
+> **application under test:** Central de Atendimento ao Cliente TAT  
+>
+> ## :goal_net: Goals
+- Testar as funcionalidades básicas do site
+- Aplicar conhecimentos adquiridos sobre o cypress e seus recursos
+- Relacionar técnicas de testes manuais e a realização de testes automatizados
+- Realizar verificações com Cypress
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+- ## :gear: Setup
 
-## O que você vai aprender
+1. `git clone https://github.com/FabioNandes/cypress-basico-v2.git`
+2. É necessário ter o Node.js e o npm instalados para rodar o projeto
+3. Acessar a pasta com vscode e rodar o comando `npm install` no terminal
+4. Utilizar o comando `npm test` para rodar o teste no modo headless ou ainda `npm run cy:open` para utilizar o modo interativo
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
+3. ## :bulb: Information
+#### :test_tube: Tests
+:file_folder: Os testes estão localizados na pasta `cypress/e2e` 
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar _upload_ de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
+:file_folder: Comandos personalizados estão na pasta `cypress/support`  
 
-## Vamos começar?
+#### :diamond_shape_with_a_dot_inside: Extensões recomendadas para o VS Code
+- [VS Code](https://code.visualstudio.com/download) 
+    - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) 
+    - [Add Only](https://marketplace.visualstudio.com/items?itemName=ub1que.add-only) 
+    - [Mocha snippets](https://marketplace.visualstudio.com/items?itemName=spoonscen.es6-mocha-snippets)
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
 
-___
-
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+ 
